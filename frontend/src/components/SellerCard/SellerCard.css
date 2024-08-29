@@ -1,0 +1,87 @@
+.seller-card {
+    width: 100%;
+    max-width: 350px;
+    min-width: 270px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .seller-card-header {
+    background-color: #36bad7;
+    padding: 20px 0;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: 50px;
+  }
+  
+  .seller-card-body {
+    padding: 20px;
+  }
+  
+  .seller-info h2 {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .seller-info p {
+    margin: 0;
+    color: #888;
+  }
+  
+  .seller-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .seller-stats div {
+    text-align: center;
+  }
+  
+  .seller-stats span {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .follow-button {
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .follow-button:hover {
+    background-color: #e6b800;
+  }
+  
+  .seller-description {
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 767px) {
+    .seller-card {
+      max-width: 100%;
+      margin: 10px;
+    }
+
+  }
+  
